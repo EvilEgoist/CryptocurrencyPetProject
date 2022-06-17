@@ -1,1 +1,1 @@
-"# CryptocurrencyPetProject" 
+CryptocurrencyPetProject
