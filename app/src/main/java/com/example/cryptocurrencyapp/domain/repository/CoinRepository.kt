@@ -12,7 +12,7 @@ interface CoinRepository {
 
     //suspend fun getCoinById(coinId: String): CoinDetail
 
-    suspend fun getCoinsList(): Flow<Resource<List<Coin>>>
+    suspend fun getCoinsList(): Resource<List<Coin>>
 
-    suspend fun getCoinById(coinId: String): Flow<Resource<CoinDetail>>
+    suspend fun getCoinById(coinId: String): Resource<CoinDetail>
 }
